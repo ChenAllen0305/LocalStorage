@@ -19,8 +19,6 @@ window.localStorage.setItem(key, value);
     //
     function onDeviceReady() {
 		alert("apple pen");
-        
-        
     }
 
     
