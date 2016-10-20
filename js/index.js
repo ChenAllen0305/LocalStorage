@@ -5,8 +5,6 @@ var launched_count = 0;
 var key = "pen";
 var value = "apple";
 
-window.localStorage.setItem(key, value);
-
     function onLoad() {
         document.addEventListener("deviceready", onDeviceReady, false);
 		console.log("device ready");
@@ -19,6 +17,10 @@ window.localStorage.setItem(key, value);
     //
     function onDeviceReady() {
 		alert("apple pen");
+        window.localStorage.setItem(key, value);
+        var key = “pen”;
+        var value = window.localStorage.getItem(key);
+        alert(value);
     }
 
     
