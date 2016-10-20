@@ -15,6 +15,7 @@ var launched_count = 0;
     function onDeviceReady() {
 		alert("device ready");
         
+        
     }
 
     
