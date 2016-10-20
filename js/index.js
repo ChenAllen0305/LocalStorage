@@ -16,7 +16,6 @@ var value = "apple";
     // device APIs are available
     //
     function onDeviceReady() {
-		alert("apple pen");
         window.localStorage.setItem(key, value);
         var key = “pen”;
         var value = window.localStorage.getItem(key);
